@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div id='main_wrapper'>
+      <h1>Welcome to Austin's house</h1>
+      <form action='/wall/enter/' method='post'>{% csrf_token %}
+        <input type='text' name='username'>
+        <input type='submit' value='ENTER'>
+      </form>
+    </div>
+</body>
+
+
+</html>
